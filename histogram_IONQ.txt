@@ -1,0 +1,44 @@
+LOG RETURN HISTOGRAM REPORT - IONQ
+==================================================
+Observations: 750
+Period: 2023-05-16 to 2026-05-12
+
+Daily mean (μ): 0.002706 (0.271%)
+Daily std dev (σ): 0.063825 (6.382%)
+Annualized mean: 68.20%
+Annualized volatility: 101.32%
+Skewness: 0.0853
+Kurtosis: 9.5860
+
+(Annualization based on 252 trading days)
+
+Distribution is approximately symmetric (skewness near 0).
+Distribution is leptokurtic (kurtosis > 3) - fatter tails than normal.
+
+FAT TAILS ANALYSIS
+--------------------------------------------------
+Jarque-Bera test: stat=1356.4, p=2.887e-295  → NOT normal
+
+Extreme outliers (> ±3.0σ): 9 (1.20%)
+Expected under normal distribution: 0.27%
+Fat tail multiplier: 4.4x
+Tail ratio (neg/pos magnitude): 2.05x  → downside dominates
+
+EMPIRICAL vs NORMAL TAIL PERCENTILES
+--------------------------------------------------
+  1st percentile:  empirical -14.11%  vs  normal -14.58%
+  5th percentile:  empirical -8.94%  vs  normal -10.23%
+
+OUTLIER DETAILS
+--------------------------------------------------
+2025-05-22: 31.13%
+2024-11-07: 29.57%
+2025-01-15: 28.88%
+2025-04-09: 21.45%
+2024-12-16: 21.18%
+2023-06-28: 21.10%
+2023-05-22: 20.13%
+2026-02-26: 19.64%
+2025-01-08: -49.43%
+
+Rapport skapad: 2026-05-13 12:58
