@@ -25,6 +25,8 @@ python histogram.py EQT.ST --years 5 --bins 75 --threshold 2.5
 
 ## Output
 
+![Histogram IONQ](histogram_IONQ.png)
+
 **PNG-graf visar:**
 - Histogram (ljusblå) - empirisk fördelning
 - KDE-kurva (mörkblå) - utjämnad faktisk fördelning
