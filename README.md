@@ -120,7 +120,7 @@ Daglig log-avkastning annualiseras genom enkel multiplikation:
 μ_annual = μ_daily × 252
 ```
 
-**Varför multiplikation (inte compounding)?**
+**Varför `μ × 252` istället för `(1+μ)^252 - 1`?**
 
 Log-avkastning är **additiv** över tid. Om dagliga log-returns är r₁, r₂, r₃... så är total log-avkastning = r₁ + r₂ + r₃ + ...
 
