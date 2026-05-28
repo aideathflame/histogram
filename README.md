@@ -140,6 +140,8 @@ Faktisk avkastning = e^(log_return) - 1
 
 Så 41.6% årlig log-avkastning motsvarar `e^0.416 - 1 = 51.6%` faktisk prisökning.
 
+**Intuition för gapet:** log-avkastning motsvarar kontinuerligt sammansatt ränta. 41.6% kontinuerligt blir mer än 41.6% enkel avkastning eftersom "ränta på ränta" verkar oavbrutet under året.
+
 ## Exempel-output (TXT-utdrag)
 
 ```
