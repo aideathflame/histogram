@@ -143,30 +143,48 @@ Så 41.6% årlig log-avkastning motsvarar `e^0.416 - 1 = 51.6%` faktisk prisökn
 ## Exempel-output (TXT-utdrag)
 
 ```
-LOG RETURN HISTOGRAM REPORT - EQT.ST
+LOG RETURN HISTOGRAM REPORT - IONQ
 ==================================================
-Observations: 754
-Period: 2023-05-19 to 2026-05-19
+Observations: 750
+Period: 2023-05-16 to 2026-05-12
 
-Daily mean (μ): 0.000823 (0.082%)
-Daily std dev (σ): 0.022451 (2.245%)
-Annualized mean: 20.74%
-Annualized volatility: 35.64%
-Skewness: -0.3214
-Kurtosis: 6.2103
+Daily mean (μ): 0.002706 (0.271%)
+Daily std dev (σ): 0.063825 (6.382%)
+Annualized mean: 68.20%
+Annualized volatility: 101.32%
+Skewness: 0.0853
+Kurtosis: 9.5860
+
+(Annualization based on 252 trading days)
+
+Distribution is approximately symmetric (skewness near 0).
+Distribution is leptokurtic (kurtosis > 3) - fatter tails than normal.
 
 FAT TAILS ANALYSIS
 --------------------------------------------------
-Jarque-Bera test: stat=342.1, p=1.2e-75  → NOT normal
+Jarque-Bera test: stat=1356.4, p=2.887e-295  → NOT normal
 
-Extreme outliers (> ±3.0σ): 8 (1.06%)
+Extreme outliers (> ±3.0σ): 9 (1.20%)
 Expected under normal distribution: 0.27%
-Fat tail multiplier: 3.9x
-Tail ratio (neg/pos magnitude): 1.34x  → downside dominates
+Fat tail multiplier: 4.4x
+Tail ratio (neg/pos magnitude): 2.05x  → downside dominates
 
 EMPIRICAL vs NORMAL TAIL PERCENTILES
 --------------------------------------------------
-  1st percentile:  empirical -6.82%  vs  normal -5.14%
-  5th percentile:  empirical -3.51%  vs  normal -3.61%
-  → Worst 1% days are 1.3x worse than normal predicts
+  1st percentile:  empirical -14.11%  vs  normal -14.58%
+  5th percentile:  empirical -8.94%  vs  normal -10.23%
+
+OUTLIER DETAILS
+--------------------------------------------------
+2025-05-22: 31.13%
+2024-11-07: 29.57%
+2025-01-15: 28.88%
+2025-04-09: 21.45%
+2024-12-16: 21.18%
+2023-06-28: 21.10%
+2023-05-22: 20.13%
+2026-02-26: 19.64%
+2025-01-08: -49.43%
+
+Rapport skapad: 2026-05-13 12:58
 ```
